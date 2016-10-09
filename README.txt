@@ -13,7 +13,6 @@ The latest released version is always available:
     Binary-only: https://www.aoindustries.com/lib/ao-appcluster-imap.jar
     With Source: https://www.aoindustries.com/src/ao-appcluster-imap.src.jar
 
-
 Note: This implementation is incomplete.  This is just a stub at this time.
 
 We prioritize development by client demand.  If you would like synchronization
