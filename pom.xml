@@ -59,6 +59,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 							<configuration>
 								<links>
 									<link>https://www.aoindustries.com/docs/ao-appcluster-core/</link>
+									<link>https://www.aoindustries.com/docs/ao-cron/</link>
 									<link>https://www.aoindustries.com/docs/aocode-public/</link>
 								</links>
 							</configuration>
@@ -73,6 +74,11 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.aoindustries</groupId>
 			<artifactId>ao-appcluster-core</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aoindustries</groupId>
+			<artifactId>ao-cron</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 		<dependency>
