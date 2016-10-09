@@ -32,7 +32,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 
 	<groupId>com.aoindustries</groupId>
 	<artifactId>ao-appcluster-imap</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>AO AppCluster IMAP</name>
@@ -44,7 +44,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/ao-appcluster-imap.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/ao-appcluster-imap.git</developerConnection>
 		<url>http://github.com/aoindustries/ao-appcluster-imap</url>
-		<tag>ao-appcluster-imap-0.1.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<profiles>
