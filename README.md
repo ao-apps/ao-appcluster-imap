@@ -5,7 +5,7 @@ Application-level clustering tools for IMAP account replication.
 Note: This implementation is incomplete.  This is just a stub at this time.
 
 We prioritize development by client demand.  If you would like synchronization
-of IMAP folders, drop us a line.
+of IMAP folders, [drop us a line](https://www.aoindustries.com/contact).
 
 ## Project Links
 * [Project Home](https://www.aoindustries.com/ao-appcluster/imap/)
