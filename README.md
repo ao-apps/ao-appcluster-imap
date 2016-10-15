@@ -10,7 +10,7 @@ of IMAP folders, [drop us a line](https://www.aoindustries.com/contact).
 ## Project Links
 * [Project Home](https://www.aoindustries.com/ao-appcluster/imap/)
 * [API Docs](https://www.aoindustries.com/ao-appcluster/imap/apidocs/)
-* [Maven Central Repository](http://search.maven.org/#search|gav|1|g:%22com.aoindustries%22%20AND%20a:%22ao-appcluster-imap%22)
+* [Maven Central Repository](https://search.maven.org/#search|gav|1|g:%22com.aoindustries%22%20AND%20a:%22ao-appcluster-imap%22)
 * [GitHub](https://github.com/aoindustries/ao-appcluster-imap)
 
 ## Contact Us
