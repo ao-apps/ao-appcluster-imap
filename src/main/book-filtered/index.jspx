@@ -35,7 +35,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 	>
 		<core:child page="apidocs/index.jspx" />
 		<p>
-			<ao:out value="${currentPage.description}" />
+			@{description.html}
 		</p>
 		<section:section label="Project Status">
 			<p>
