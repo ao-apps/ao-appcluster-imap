@@ -27,6 +27,8 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 	xmlns:jsp="http://java.sun.com/JSP/Page"
 	title="@{project.name} @{project.version} API"
 	shortTitle="API"
+	datePublished="2016-10-23T22:47:00-0500"
+	dateModified="${ao:getLastModified('index.html')}"
 >
 	<jsp:directive.page language="java" pageEncoding="UTF-8" session="false" />
 	<jsp:output omit-xml-declaration="true" />

@@ -32,6 +32,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 		title="@{project.name}"
 		shortTitle="@{shortTitle}"
 		description="@{project.description}"
+		datePublished="2016-10-23T22:47:00-0500"
 	>
 		<core:child page="apidocs/index.jspx" />
 		<p>
