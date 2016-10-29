@@ -34,6 +34,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 	<core:page
 		title="@{project.name} Changelog"
 		shortTitle="Changelog"
+		tocLevels="1"
 		datePublished="2016-10-29T15:35:41-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
