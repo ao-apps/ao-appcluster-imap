@@ -46,7 +46,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 			</p>
 			<p>
 				We prioritize development by client demand.  If you would like synchronization
-				of IMAP folders, <core:link page="/contact.jspx">drop us a line</core:link>.
+				of IMAP folders, <core:link book="/" page="/contact.jspx">drop us a line</core:link>.
 			</p>
 		</section:section>
 		<section:section label="Project Links">
