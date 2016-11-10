@@ -36,12 +36,11 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 	<packaging>jar</packaging>
 
 	<properties>
-		<bookPath>/${project.parent.artifactId}/imap</bookPath>
 		<shortTitle>IMAP</shortTitle>
 	</properties>
 
 	<name>AO AppCluster IMAP</name>
-	<url>https://aoindustries.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
+	<url>https://aoindustries.com/${project.parent.artifactId}/imap/</url>
 	<description>Application-level clustering tools for IMAP account replication.</description>
 	<inceptionYear>2011</inceptionYear>
 
