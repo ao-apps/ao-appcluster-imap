@@ -56,7 +56,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 
 		<changelog:release
 			projectName="@{documented.name}"
-			version="1.0.2"
+			version="0.1.2"
 			datePublished="2016-11-15T18:28:24-0600"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
@@ -71,7 +71,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 
 		<changelog:release
 			projectName="@{documented.name}"
-			version="1.0.1"
+			version="0.1.1"
 			datePublished="2016-10-20T18:55:00-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
@@ -85,7 +85,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 
 		<changelog:release
 			projectName="@{documented.name}"
-			version="1.0.0"
+			version="0.1.0"
 			datePublished="2016-10-08T23:18:00-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
