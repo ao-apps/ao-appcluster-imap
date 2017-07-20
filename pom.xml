@@ -33,7 +33,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 
 	<groupId>com.aoindustries</groupId>
 	<artifactId>ao-appcluster-imap</artifactId>
-	<version>0.1.3-SNAPSHOT</version>
+	<version>0.1.3</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -52,7 +52,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/${project.artifactId}.git</developerConnection>
 		<url>https://github.com/aoindustries/${project.artifactId}</url>
-		<tag>HEAD</tag>
+		<tag>ao-appcluster-imap-0.1.3</tag>
 	</scm>
 
 	<profiles>
