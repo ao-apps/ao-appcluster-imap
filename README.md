@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [AO AppCluster](https://aoindustries.com/ao-appcluster/) / [IMAP](https://aoindustries.com/ao-appcluster/imap/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [AO AppCluster](https://github.com/aoindustries/ao-appcluster) / [IMAP](https://github.com/aoindustries/ao-appcluster-imap)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-alpha">
 		<img src="https://aoindustries.com/ao-badges/project-alpha.svg" alt="project: alpha" />
