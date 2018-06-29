@@ -55,21 +55,19 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 		<profile>
 			<id>release</id>
 			<build>
-				<pluginManagement>
-					<plugins>
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId><artifactId>maven-javadoc-plugin</artifactId>
-							<configuration>
-								<links>
-									<link>${javac.link.javaApi}</link>
-									<link>https://aoindustries.com/ao-appcluster/core/apidocs/</link>
-									<link>https://aoindustries.com/ao-cron/apidocs/</link>
-									<link>https://aoindustries.com/ao-lang/apidocs/</link>
-								</links>
-							</configuration>
-						</plugin>
-					</plugins>
-				</pluginManagement>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId><artifactId>maven-javadoc-plugin</artifactId>
+						<configuration>
+							<links>
+								<link>${javac.link.javaApi}</link>
+								<link>https://aoindustries.com/ao-appcluster/core/apidocs</link>
+								<link>https://aoindustries.com/ao-cron/apidocs</link>
+								<link>https://aoindustries.com/ao-lang/apidocs</link>
+							</links>
+						</configuration>
+					</plugin>
+				</plugins>
 			</build>
 		</profile>
 	</profiles>
