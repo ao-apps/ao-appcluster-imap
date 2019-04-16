@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-appcluster-imap - Application-level clustering tools for IMAP account replication.
-Copyright (C) 2016, 2017, 2018  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -61,9 +61,9 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 						<configuration>
 							<links>
 								<link>${javac.link.javaApi}</link>
-								<link>https://aoindustries.com/ao-appcluster/core/apidocs</link>
-								<link>https://aoindustries.com/ao-cron/apidocs</link>
-								<link>https://aoindustries.com/ao-lang/apidocs</link>
+								<link>https://aoindustries.com/ao-appcluster/core/apidocs/</link>
+								<link>https://aoindustries.com/ao-cron/apidocs/</link>
+								<link>https://aoindustries.com/ao-lang/apidocs/</link>
 							</links>
 						</configuration>
 					</plugin>
