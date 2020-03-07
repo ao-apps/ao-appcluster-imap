@@ -45,7 +45,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 				arg.projectStatus="alpha"
 				arg.managementStatus="preview"
 				arg.packagingStatus="active"
-				arg.javaVersion="@{documented.javaVersion}"
+				arg.javaseVersion="@{documented.javase.version}"
 				arg.semanticVersioning="2.0.0"
 				arg.license="lgpl-3.0"
 			/>
