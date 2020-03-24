@@ -33,7 +33,7 @@ of IMAP folders, [drop us a line](https://aoindustries.com/contact).
 * [Project Home](https://aoindustries.com/ao-appcluster/imap/)
 * [Changelog](https://aoindustries.com/ao-appcluster/imap/changelog)
 * [API Docs](https://aoindustries.com/ao-appcluster/imap/apidocs/)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.aoindustries%22%20AND%20a:%22ao-appcluster-imap%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/ao-appcluster-imap)
 * [GitHub](https://github.com/aoindustries/ao-appcluster-imap)
 
 ## Contact Us
