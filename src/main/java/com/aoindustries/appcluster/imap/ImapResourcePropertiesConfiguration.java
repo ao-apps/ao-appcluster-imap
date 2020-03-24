@@ -1,6 +1,6 @@
 /*
  * ao-appcluster-imap - Application-level clustering tools for IMAP account replication.
- * Copyright (C) 2011, 2015, 2016, 2019  AO Industries, Inc.
+ * Copyright (C) 2011, 2015, 2016, 2019, 2020  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -27,7 +27,7 @@ import com.aoindustries.appcluster.AppClusterConfigurationException;
 import com.aoindustries.appcluster.AppClusterPropertiesConfiguration;
 import com.aoindustries.appcluster.CronResourcePropertiesConfiguration;
 import com.aoindustries.appcluster.ResourceNode;
-import com.aoindustries.util.AoCollections;
+import com.aoindustries.collections.AoCollections;
 import java.util.Collection;
 import java.util.LinkedHashSet;
 import java.util.Set;

@@ -63,8 +63,8 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 								<link>${javadoc.link.javase}</link>
 								<!-- Direct -->
 								<link>https://aoindustries.com/ao-appcluster/core/apidocs/</link>
+								<link>https://aoindustries.com/ao-collections/apidocs/</link>
 								<link>https://aoindustries.com/ao-cron/apidocs/</link>
-								<link>https://aoindustries.com/ao-lang/apidocs/</link>
 							</links>
 						</configuration>
 					</plugin>
@@ -80,10 +80,10 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId><version>1.1.3-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-cron</artifactId><version>1.2.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-collections</artifactId><version>1.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId><version>4.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-cron</artifactId><version>1.2.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -94,10 +94,10 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 			<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-core</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-cron</artifactId>
+			<groupId>com.aoindustries</groupId><artifactId>ao-collections</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId>
+			<groupId>com.aoindustries</groupId><artifactId>ao-cron</artifactId>
 		</dependency>
 	</dependencies>
 </project>
