@@ -44,7 +44,6 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 	<inceptionYear>2011</inceptionYear>
 
 	<scm>
-		<!-- Can't inherit due to multi-module -->
 		<connection>scm:git:git://github.com/aoindustries/ao-appcluster-imap.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/ao-appcluster-imap.git</developerConnection>
 		<url>https://github.com/aoindustries/ao-appcluster-imap</url>
