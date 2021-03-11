@@ -1,6 +1,6 @@
 /*
  * ao-appcluster-imap - Application-level clustering tools for IMAP account replication.
- * Copyright (C) 2011, 2016  AO Industries, Inc.
+ * Copyright (C) 2011, 2016, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -31,7 +31,7 @@ import com.aoindustries.appcluster.Node;
  *
  * @author  AO Industries, Inc.
  */
-public interface ImapResourceNodeConfiguration extends CronResourceNodeConfiguration<ImapResource,ImapResourceNode> {
+public interface ImapResourceNodeConfiguration extends CronResourceNodeConfiguration<ImapResource, ImapResourceNode> {
 
 	@Override
 	ImapResourceNode newResourceNode(Node node) throws AppClusterConfigurationException;

@@ -1,6 +1,6 @@
 /*
  * ao-appcluster-imap - Application-level clustering tools for IMAP account replication.
- * Copyright (C) 2011, 2016  AO Industries, Inc.
+ * Copyright (C) 2011, 2016, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -38,7 +38,7 @@ import java.util.Collections;
  *
  * @author  AO Industries, Inc.
  */
-public class ImapResourceSynchronizer extends CronResourceSynchronizer<ImapResource,ImapResourceNode> {
+public class ImapResourceSynchronizer extends CronResourceSynchronizer<ImapResource, ImapResourceNode> {
 
 	protected ImapResourceSynchronizer(ImapResourceNode localResourceNode, ImapResourceNode remoteResourceNode, Schedule synchronizeSchedule, Schedule testSchedule) {
 		super(localResourceNode, remoteResourceNode, synchronizeSchedule, testSchedule);

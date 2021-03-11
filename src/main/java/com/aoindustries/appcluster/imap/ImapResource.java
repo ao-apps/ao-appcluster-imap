@@ -1,6 +1,6 @@
 /*
  * ao-appcluster-imap - Application-level clustering tools for IMAP account replication.
- * Copyright (C) 2011, 2016  AO Industries, Inc.
+ * Copyright (C) 2011, 2016, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -34,9 +34,9 @@ import java.util.Collection;
  *
  * @author  AO Industries, Inc.
  */
-public class ImapResource extends CronResource<ImapResource,ImapResourceNode> {
+public class ImapResource extends CronResource<ImapResource, ImapResourceNode> {
 
-	protected ImapResource(AppCluster cluster, ImapResourceConfiguration resourceConfiguration, Collection<? extends ResourceNode<?,?>> resourceNodes) throws AppClusterConfigurationException {
+	protected ImapResource(AppCluster cluster, ImapResourceConfiguration resourceConfiguration, Collection<? extends ResourceNode<?, ?>> resourceNodes) throws AppClusterConfigurationException {
 		super(cluster, resourceConfiguration, resourceNodes);
 	}
 
@@ -49,7 +49,7 @@ public class ImapResource extends CronResource<ImapResource,ImapResourceNode> {
 	}
 
 	@Override
-	protected ImapResourceSynchronizer newResourceSynchronizer(ImapResourceNode localResourceNode, ImapResourceNode remoteResourceNode, ResourceConfiguration<ImapResource,ImapResourceNode> resourceConfiguration) throws AppClusterConfigurationException {
+	protected ImapResourceSynchronizer newResourceSynchronizer(ImapResourceNode localResourceNode, ImapResourceNode remoteResourceNode, ResourceConfiguration<ImapResource, ImapResourceNode> resourceConfiguration) throws AppClusterConfigurationException {
 		ImapResourceConfiguration imapResourceConfiguration = (ImapResourceConfiguration)resourceConfiguration;
 		return new ImapResourceSynchronizer(
 			localResourceNode,
