@@ -1,23 +1,23 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [AO AppCluster](https://github.com/aoindustries/ao-appcluster) / [IMAP](https://github.com/aoindustries/ao-appcluster-imap)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [AO OSS](https://github.com/aoindustries/ao-oss) / [AppCluster](https://github.com/aoindustries/ao-appcluster) / [IMAP](https://github.com/aoindustries/ao-appcluster-imap)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-alpha">
-		<img src="https://aoindustries.com/ao-badges/project-alpha.svg" alt="project: alpha" />
+		<img src="https://oss.aoapps.com/ao-badges/project-alpha.svg" alt="project: alpha" />
 	</a>
 	<a href="https://aoindustries.com/life-cycle#management-preview">
-		<img src="https://aoindustries.com/ao-badges/management-preview.svg" alt="management: preview" />
+		<img src="https://oss.aoapps.com/ao-badges/management-preview.svg" alt="management: preview" />
 	</a>
 	<a href="https://aoindustries.com/life-cycle#packaging-active">
-		<img src="https://aoindustries.com/ao-badges/packaging-active.svg" alt="packaging: active" />
+		<img src="https://oss.aoapps.com/ao-badges/packaging-active.svg" alt="packaging: active" />
 	</a>
 	<br />
 	<a href="https://docs.oracle.com/en/java/javase/11/docs/api/">
-		<img src="https://aoindustries.com/ao-badges/java-11.svg" alt="java: &gt;= 11" />
+		<img src="https://oss.aoapps.com/ao-badges/java-11.svg" alt="java: &gt;= 11" />
 	</a>
 	<a href="http://semver.org/spec/v2.0.0.html">
-		<img src="https://aoindustries.com/ao-badges/semver-2.0.0.svg" alt="semantic versioning: 2.0.0" />
+		<img src="https://oss.aoapps.com/ao-badges/semver-2.0.0.svg" alt="semantic versioning: 2.0.0" />
 	</a>
 	<a href="https://www.gnu.org/licenses/lgpl-3.0">
-		<img src="https://aoindustries.com/ao-badges/license-lgpl-3.0.svg" alt="license: LGPL v3" />
+		<img src="https://oss.aoapps.com/ao-badges/license-lgpl-3.0.svg" alt="license: LGPL v3" />
 	</a>
 </p>
 
@@ -30,10 +30,10 @@ We prioritize development by client demand.  If you would like synchronization
 of IMAP folders, [drop us a line](https://aoindustries.com/contact).
 
 ## Project Links
-* [Project Home](https://aoindustries.com/ao-appcluster/imap/)
-* [Changelog](https://aoindustries.com/ao-appcluster/imap/changelog)
-* [API Docs](https://aoindustries.com/ao-appcluster/imap/apidocs/)
-* [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/ao-appcluster-imap)
+* [Project Home](https://oss.aoapps.com/appcluster/imap/)
+* [Changelog](https://oss.aoapps.com/appcluster/imap/changelog)
+* [API Docs](https://oss.aoapps.com/appcluster/imap/apidocs/)
+* [Maven Central Repository](https://search.maven.org/artifact/com.aoapps/ao-appcluster-imap)
 * [GitHub](https://github.com/aoindustries/ao-appcluster-imap)
 
 ## Contact Us
