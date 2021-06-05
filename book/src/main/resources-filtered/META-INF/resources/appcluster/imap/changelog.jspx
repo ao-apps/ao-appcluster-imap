@@ -37,7 +37,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-29T15:35:41-05:00"
-		dateModified="2021-05-31T01:04:26-05:00"
+		dateModified="2021-06-03T22:53:21-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -51,6 +51,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 				<ul>
 					<li>Minimum Java version changed from 1.8 to 11.</li>
 					<li>Maven artifact relocated from <code>com.aoindustries:ao-appcluster-imap</code> to <code>com.aoapps:ao-appcluster-imap</code>.</li>
+					<li>Package renamed from <code>com.aoindustries.appcluster.imap</code> to <code>com.aoapps.appcluster.imap</code>.</li>
 				</ul>
 			</changelog:release>
 		</c:if>

@@ -20,16 +20,16 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.aoindustries.appcluster.imap;
+package com.aoapps.appcluster.imap;
 
-import com.aoindustries.appcluster.CronResourceSynchronizer;
-import com.aoindustries.appcluster.NodeDnsStatus;
-import com.aoindustries.appcluster.ResourceNodeDnsResult;
-import com.aoindustries.appcluster.ResourceStatus;
-import com.aoindustries.appcluster.ResourceSynchronizationMode;
-import com.aoindustries.appcluster.ResourceSynchronizationResult;
-import com.aoindustries.appcluster.ResourceSynchronizationResultStep;
-import com.aoindustries.cron.Schedule;
+import com.aoapps.appcluster.CronResourceSynchronizer;
+import com.aoapps.appcluster.NodeDnsStatus;
+import com.aoapps.appcluster.ResourceNodeDnsResult;
+import com.aoapps.appcluster.ResourceStatus;
+import com.aoapps.appcluster.ResourceSynchronizationMode;
+import com.aoapps.appcluster.ResourceSynchronizationResult;
+import com.aoapps.appcluster.ResourceSynchronizationResultStep;
+import com.aoapps.cron.Schedule;
 import java.util.Collection;
 import java.util.Collections;
 

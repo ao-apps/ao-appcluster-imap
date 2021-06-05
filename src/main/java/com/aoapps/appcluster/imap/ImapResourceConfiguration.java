@@ -20,12 +20,12 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.aoindustries.appcluster.imap;
+package com.aoapps.appcluster.imap;
 
-import com.aoindustries.appcluster.AppCluster;
-import com.aoindustries.appcluster.AppClusterConfigurationException;
-import com.aoindustries.appcluster.CronResourceConfiguration;
-import com.aoindustries.appcluster.ResourceNode;
+import com.aoapps.appcluster.AppCluster;
+import com.aoapps.appcluster.AppClusterConfigurationException;
+import com.aoapps.appcluster.CronResourceConfiguration;
+import com.aoapps.appcluster.ResourceNode;
 import java.util.Collection;
 import java.util.Set;
 
