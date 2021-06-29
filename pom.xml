@@ -33,6 +33,7 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 	<packaging>bundle</packaging>
 
 	<properties>
+		<module.name>com.aoapps.appcluster.imap</module.name>
 		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://oss.aoapps.com/">AO OSS</a>
 / <a target="${javadoc.target}" href="https://oss.aoapps.com/appcluster/">AppCluster</a>
 / <a target="${javadoc.target}" href="${project.url}">IMAP</a>]]></javadoc.breadcrumbs>
