@@ -9,6 +9,12 @@
 
 [![Build](https://github.com/aoindustries/ao-appcluster-imap/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/ao-appcluster-imap/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.aoapps/ao-appcluster-imap/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.aoapps/ao-appcluster-imap)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-appcluster-imap&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.aoapps%3Aao-appcluster-imap)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-appcluster-imap&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-appcluster-imap&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-appcluster-imap&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-appcluster-imap&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-appcluster-imap&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-appcluster-imap&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-appcluster-imap&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-appcluster-imap&metric=Maintainability)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-appcluster-imap&metric=coverage)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-appcluster-imap&metric=Coverage)
 
 Application-level clustering tools for IMAP account replication.
 
