@@ -71,20 +71,20 @@ along with ao-appcluster-imap.  If not, see <http://www.gnu.org/licenses />.
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/ao-appcluster-imap.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/ao-appcluster-imap.git</developerConnection>
-		<url>https://github.com/aoindustries/ao-appcluster-imap</url>
+		<connection>scm:git:git://github.com/ao-apps/ao-appcluster-imap.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/ao-appcluster-imap.git</developerConnection>
+		<url>https://github.com/ao-apps/ao-appcluster-imap</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/ao-appcluster-imap/issues</url>
+		<url>https://github.com/ao-apps/ao-appcluster-imap/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/ao-appcluster-imap/actions</url>
+		<url>https://github.com/ao-apps/ao-appcluster-imap/actions</url>
 	</ciManagement>
 
 	<repositories>
