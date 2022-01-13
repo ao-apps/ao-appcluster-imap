@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-appcluster-imap - Application-level clustering tools for IMAP account replication.
-Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021, 2022  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -204,7 +204,7 @@ along with ao-appcluster-imap.  If not, see <https://www.gnu.org/licenses/>.
 				<groupId>dnsjava</groupId><artifactId>dnsjava</artifactId><version>3.4.3</version>
 			</dependency>
 			<dependency>
-				<groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId><version>1.7.32</version>
+				<groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId><version>1.7.33</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
