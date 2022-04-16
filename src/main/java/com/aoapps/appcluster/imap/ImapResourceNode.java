@@ -20,6 +20,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with ao-appcluster-imap.  If not, see <https://www.gnu.org/licenses/>.
  */
+
 package com.aoapps.appcluster.imap;
 
 import com.aoapps.appcluster.CronResourceNode;
