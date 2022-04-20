@@ -35,7 +35,7 @@ import com.aoapps.appcluster.Node;
  */
 public class ImapResourceNode extends CronResourceNode<ImapResource, ImapResourceNode> {
 
-	protected ImapResourceNode(Node node, ImapResourceNodeConfiguration resourceNodeConfiguration) {
-		super(node, resourceNodeConfiguration);
-	}
+  protected ImapResourceNode(Node node, ImapResourceNodeConfiguration resourceNodeConfiguration) {
+    super(node, resourceNodeConfiguration);
+  }
 }

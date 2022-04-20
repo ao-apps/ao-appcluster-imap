@@ -34,6 +34,6 @@ import com.aoapps.appcluster.Node;
  */
 public interface ImapResourceNodeConfiguration extends CronResourceNodeConfiguration<ImapResource, ImapResourceNode> {
 
-	@Override
-	ImapResourceNode newResourceNode(Node node) throws AppClusterConfigurationException;
+  @Override
+  ImapResourceNode newResourceNode(Node node) throws AppClusterConfigurationException;
 }

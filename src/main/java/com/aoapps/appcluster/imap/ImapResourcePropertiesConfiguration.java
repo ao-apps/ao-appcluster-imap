@@ -39,23 +39,25 @@ import java.util.Set;
  */
 public class ImapResourcePropertiesConfiguration extends CronResourcePropertiesConfiguration<ImapResource, ImapResourceNode> implements ImapResourceConfiguration {
 
-	protected ImapResourcePropertiesConfiguration(AppClusterPropertiesConfiguration properties, String id) throws AppClusterConfigurationException {
-		super(properties, id);
-	}
+  protected ImapResourcePropertiesConfiguration(AppClusterPropertiesConfiguration properties, String id) throws AppClusterConfigurationException {
+    super(properties, id);
+  }
 
-	@Override
-	public Set<? extends ImapResourceNodePropertiesConfiguration> getResourceNodeConfigurations() throws AppClusterConfigurationException {
-		String resourceId = getId();
-		Set<String> nodeIds = properties.getUniqueStrings("appcluster.resource."+id+".nodes", true);
-		Set<ImapResourceNodePropertiesConfiguration> resourceNodes = AoCollections.newLinkedHashSet(nodeIds.size());
-		for(String nodeId : nodeIds) {
-			if(!resourceNodes.add(new ImapResourceNodePropertiesConfiguration(properties, resourceId, nodeId, type))) throw new AssertionError();
-		}
-		return AoCollections.optimalUnmodifiableSet(resourceNodes);
-	}
+  @Override
+  public Set<? extends ImapResourceNodePropertiesConfiguration> getResourceNodeConfigurations() throws AppClusterConfigurationException {
+    String resourceId = getId();
+    Set<String> nodeIds = properties.getUniqueStrings("appcluster.resource."+id+".nodes", true);
+    Set<ImapResourceNodePropertiesConfiguration> resourceNodes = AoCollections.newLinkedHashSet(nodeIds.size());
+    for (String nodeId : nodeIds) {
+      if (!resourceNodes.add(new ImapResourceNodePropertiesConfiguration(properties, resourceId, nodeId, type))) {
+        throw new AssertionError();
+      }
+    }
+    return AoCollections.optimalUnmodifiableSet(resourceNodes);
+  }
 
-	@Override
-	public ImapResource newResource(AppCluster cluster, Collection<? extends ResourceNode<?, ?>> resourceNodes) throws AppClusterConfigurationException {
-		return new ImapResource(cluster, this, resourceNodes);
-	}
+  @Override
+  public ImapResource newResource(AppCluster cluster, Collection<? extends ResourceNode<?, ?>> resourceNodes) throws AppClusterConfigurationException {
+    return new ImapResource(cluster, this, resourceNodes);
+  }
 }

@@ -35,8 +35,8 @@ import com.aoapps.appcluster.ResourcePropertiesConfigurationFactory;
  */
 public class ImapResourcePropertiesConfigurationFactory implements ResourcePropertiesConfigurationFactory<ImapResource, ImapResourceNode> {
 
-	@Override
-	public ResourcePropertiesConfiguration<ImapResource, ImapResourceNode> newResourcePropertiesConfiguration(AppClusterPropertiesConfiguration properties, String id) throws AppClusterConfigurationException {
-		return new ImapResourcePropertiesConfiguration(properties, id);
-	}
+  @Override
+  public ResourcePropertiesConfiguration<ImapResource, ImapResourceNode> newResourcePropertiesConfiguration(AppClusterPropertiesConfiguration properties, String id) throws AppClusterConfigurationException {
+    return new ImapResourcePropertiesConfiguration(properties, id);
+  }
 }

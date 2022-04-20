@@ -35,12 +35,12 @@ import com.aoapps.appcluster.Node;
  */
 public class ImapResourceNodePropertiesConfiguration extends CronResourceNodePropertiesConfiguration<ImapResource, ImapResourceNode> implements ImapResourceNodeConfiguration {
 
-	protected ImapResourceNodePropertiesConfiguration(AppClusterPropertiesConfiguration properties, String resourceId, String nodeId, String type) throws AppClusterConfigurationException {
-		super(properties, resourceId, nodeId);
-	}
+  protected ImapResourceNodePropertiesConfiguration(AppClusterPropertiesConfiguration properties, String resourceId, String nodeId, String type) throws AppClusterConfigurationException {
+    super(properties, resourceId, nodeId);
+  }
 
-	@Override
-	public ImapResourceNode newResourceNode(Node node) throws AppClusterConfigurationException {
-		return new ImapResourceNode(node, this);
-	}
+  @Override
+  public ImapResourceNode newResourceNode(Node node) throws AppClusterConfigurationException {
+    return new ImapResourceNode(node, this);
+  }
 }
