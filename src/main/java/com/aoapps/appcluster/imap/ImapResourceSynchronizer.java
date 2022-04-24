@@ -56,20 +56,20 @@ public class ImapResourceSynchronizer extends CronResourceSynchronizer<ImapResou
     switch (mode) {
       case SYNCHRONIZE :
         return
-          localDnsStatus == NodeDnsStatus.MASTER
-          && remoteDnsStatus == NodeDnsStatus.SLAVE
+            localDnsStatus == NodeDnsStatus.MASTER
+                && remoteDnsStatus == NodeDnsStatus.SLAVE
         ;
       case TEST_ONLY :
         return
-          (
-            localDnsStatus == NodeDnsStatus.MASTER
-            && remoteDnsStatus == NodeDnsStatus.SLAVE
-          ) || (
-            localDnsStatus == NodeDnsStatus.SLAVE
-            && remoteDnsStatus == NodeDnsStatus.MASTER
-          )
+            (
+                localDnsStatus == NodeDnsStatus.MASTER
+                    && remoteDnsStatus == NodeDnsStatus.SLAVE
+            ) || (
+                localDnsStatus == NodeDnsStatus.SLAVE
+                    && remoteDnsStatus == NodeDnsStatus.MASTER
+            )
         ;
-      default : throw new AssertionError("Unexpected mode: "+mode);
+      default : throw new AssertionError("Unexpected mode: " + mode);
     }
   }
 
@@ -77,20 +77,20 @@ public class ImapResourceSynchronizer extends CronResourceSynchronizer<ImapResou
   protected ResourceSynchronizationResult synchronize(ResourceSynchronizationMode mode, ResourceNodeDnsResult localDnsResult, ResourceNodeDnsResult remoteDnsResult) {
     long startTime = System.currentTimeMillis();
     return new ResourceSynchronizationResult(
-      localResourceNode,
-      remoteResourceNode,
-      mode,
-      Collections.singletonList(
-        new ResourceSynchronizationResultStep(
-          startTime,
-          System.currentTimeMillis(),
-          ResourceStatus.HEALTHY,
-          "TODO",
-          (Collection<String>)null,
-          null,
-          null
+        localResourceNode,
+        remoteResourceNode,
+        mode,
+        Collections.singletonList(
+            new ResourceSynchronizationResultStep(
+                startTime,
+                System.currentTimeMillis(),
+                ResourceStatus.HEALTHY,
+                "TODO",
+                (Collection<String>) null,
+                null,
+                null
+            )
         )
-      )
     );
   }
 }

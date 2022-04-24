@@ -46,7 +46,7 @@ public class ImapResourcePropertiesConfiguration extends CronResourcePropertiesC
   @Override
   public Set<? extends ImapResourceNodePropertiesConfiguration> getResourceNodeConfigurations() throws AppClusterConfigurationException {
     String resourceId = getId();
-    Set<String> nodeIds = properties.getUniqueStrings("appcluster.resource."+id+".nodes", true);
+    Set<String> nodeIds = properties.getUniqueStrings("appcluster.resource." + id + ".nodes", true);
     Set<ImapResourceNodePropertiesConfiguration> resourceNodes = AoCollections.newLinkedHashSet(nodeIds.size());
     for (String nodeId : nodeIds) {
       if (!resourceNodes.add(new ImapResourceNodePropertiesConfiguration(properties, resourceId, nodeId, type))) {
