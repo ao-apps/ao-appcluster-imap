@@ -26,4 +26,4 @@ module com.aoapps.appcluster.imap {
   requires com.aoapps.appcluster.core; // <groupId>com.aoapps</groupId><artifactId>ao-appcluster-core</artifactId>
   requires com.aoapps.collections; // <groupId>com.aoapps</groupId><artifactId>ao-collections</artifactId>
   requires com.aoapps.cron; // <groupId>com.aoapps</groupId><artifactId>ao-cron</artifactId>
-}
+} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
