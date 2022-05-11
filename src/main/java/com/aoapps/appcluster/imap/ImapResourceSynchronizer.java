@@ -54,12 +54,11 @@ public class ImapResourceSynchronizer extends CronResourceSynchronizer<ImapResou
     NodeDnsStatus localDnsStatus = localDnsResult.getNodeStatus();
     NodeDnsStatus remoteDnsStatus = remoteDnsResult.getNodeStatus();
     switch (mode) {
-      case SYNCHRONIZE :
+      case SYNCHRONIZE:
         return
             localDnsStatus == NodeDnsStatus.MASTER
-                && remoteDnsStatus == NodeDnsStatus.SLAVE
-        ;
-      case TEST_ONLY :
+                && remoteDnsStatus == NodeDnsStatus.SLAVE;
+      case TEST_ONLY:
         return
             (
                 localDnsStatus == NodeDnsStatus.MASTER
@@ -67,9 +66,9 @@ public class ImapResourceSynchronizer extends CronResourceSynchronizer<ImapResou
             ) || (
                 localDnsStatus == NodeDnsStatus.SLAVE
                     && remoteDnsStatus == NodeDnsStatus.MASTER
-            )
-        ;
-      default : throw new AssertionError("Unexpected mode: " + mode);
+            );
+      default:
+        throw new AssertionError("Unexpected mode: " + mode);
     }
   }
 

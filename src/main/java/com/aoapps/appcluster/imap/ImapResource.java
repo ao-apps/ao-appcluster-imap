@@ -50,7 +50,11 @@ public class ImapResource extends CronResource<ImapResource, ImapResourceNode> {
   }
 
   @Override
-  protected ImapResourceSynchronizer newResourceSynchronizer(ImapResourceNode localResourceNode, ImapResourceNode remoteResourceNode, ResourceConfiguration<ImapResource, ImapResourceNode> resourceConfiguration) throws AppClusterConfigurationException {
+  protected ImapResourceSynchronizer newResourceSynchronizer(
+      ImapResourceNode localResourceNode,
+      ImapResourceNode remoteResourceNode,
+      ResourceConfiguration<ImapResource, ImapResourceNode> resourceConfiguration
+  ) throws AppClusterConfigurationException {
     ImapResourceConfiguration imapResourceConfiguration = (ImapResourceConfiguration) resourceConfiguration;
     return new ImapResourceSynchronizer(
         localResourceNode,
