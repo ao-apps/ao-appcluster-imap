@@ -28,7 +28,7 @@ of IMAP folders, [drop us a line](https://aoindustries.com/contact).
 * [Project Home](https://oss.aoapps.com/appcluster/imap/)
 * [Changelog](https://oss.aoapps.com/appcluster/imap/changelog)
 * [API Docs](https://oss.aoapps.com/appcluster/imap/apidocs/)
-* [Maven Central Repository](https://search.maven.org/artifact/com.aoapps/ao-appcluster-imap)
+* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.aoapps&q=a%3Aao-appcluster-imap)
 * [GitHub](https://github.com/ao-apps/ao-appcluster-imap)
 
 ## Contact Us
