@@ -37,6 +37,7 @@ def upstreamProjects = [
   'core', // <groupId>com.aoapps</groupId><artifactId>ao-appcluster-core</artifactId>
   '../collections', // <groupId>com.aoapps</groupId><artifactId>ao-collections</artifactId>
   '../cron', // <groupId>com.aoapps</groupId><artifactId>ao-cron</artifactId>
+  // No Jenkins: <groupId>com.github.spotbugs</groupId><artifactId>spotbugs-annotations</artifactId>
 ]
 
 /******************************************************************************************
