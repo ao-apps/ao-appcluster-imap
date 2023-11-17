@@ -189,7 +189,7 @@ along with ao-appcluster-imap.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.aoapps</groupId><artifactId>ao-cron</artifactId><version>3.0.2${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.github.spotbugs</groupId><artifactId>spotbugs-annotations</artifactId><version>4.8.0</version>
+        <groupId>com.github.spotbugs</groupId><artifactId>spotbugs-annotations</artifactId><version>4.8.1</version>
       </dependency>
       <!-- Transitive -->
       <dependency>
