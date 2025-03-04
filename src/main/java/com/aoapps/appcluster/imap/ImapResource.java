@@ -1,6 +1,6 @@
 /*
  * ao-appcluster-imap - Application-level clustering tools for IMAP account replication.
- * Copyright (C) 2011, 2016, 2021, 2022, 2023, 2024  AO Industries, Inc.
+ * Copyright (C) 2011, 2016, 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -28,7 +28,6 @@ import com.aoapps.appcluster.AppClusterConfigurationException;
 import com.aoapps.appcluster.CronResource;
 import com.aoapps.appcluster.ResourceConfiguration;
 import com.aoapps.appcluster.ResourceNode;
-import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import java.util.Collection;
 
 /**
@@ -41,7 +40,6 @@ public class ImapResource extends CronResource<ImapResource, ImapResourceNode> {
   /**
    * Creates a new {@link ImapResource}.
    */
-  @SuppressFBWarnings("CT_CONSTRUCTOR_THROW")
   protected ImapResource(AppCluster cluster, ImapResourceConfiguration resourceConfiguration, Collection<? extends ResourceNode<?, ?>> resourceNodes) throws AppClusterConfigurationException {
     super(cluster, resourceConfiguration, resourceNodes);
   }
